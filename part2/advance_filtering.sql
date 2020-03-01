@@ -55,3 +55,10 @@ WHERE product_name = "banana" OR "coconut"
 	,price
 FROM products
 WHERE (supplier_id=9 OR supplier_id=11) AND price >=100;
+
+
+
+
+-- NOT OPERATOR
+
+-- thiis is actually used for excludin the data from a certail query;
