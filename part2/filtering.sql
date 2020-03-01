@@ -75,6 +75,7 @@ WHERE price BETWEEN 100 AND 200;
 -- null value is not the zero value .always remember this
 -- null value means the value is missing
 -- you can query null value
+-- even the empty sting is not a null value
 
 -- example
 
