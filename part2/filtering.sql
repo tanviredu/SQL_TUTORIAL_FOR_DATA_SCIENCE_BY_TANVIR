@@ -70,3 +70,17 @@ FROM product_table
 WHERE price BETWEEN 100 AND 200;
 
 -- ISNULL
+
+
+-- null value is not the zero value .always remember this
+-- null value means the value is missing
+-- you can query null value
+
+-- example
+
+SELECT product_name
+	,price
+	,date
+	,id
+	,full_name
+Where product_name IS NULL;
