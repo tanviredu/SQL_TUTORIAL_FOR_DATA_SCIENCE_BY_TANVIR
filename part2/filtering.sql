@@ -60,4 +60,13 @@ SELECT product_name,price,date,full_name FROM product where price <=150;
 
 
 -- BETWEEN a range
+
+SELECT product_name
+	,price
+	,company
+	,date
+	,id
+FROM product_table
+WHERE price BETWEEN 100 AND 200;
+
 -- ISNULL
