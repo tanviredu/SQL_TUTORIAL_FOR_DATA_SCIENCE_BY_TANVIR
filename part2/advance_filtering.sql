@@ -15,3 +15,25 @@ SELECT product_id
 	,unit_price
 From products
 Where supplier_id IN (9,10,11);
+
+
+
+
+-- OR Condition
+
+-- or cindition can be simmiler like in condition
+-- lets see an example
+
+SELECT product_id
+	,supplier-id
+	,unit_price
+	,product_name
+FROM products
+WHERE product_name = "banana" OR "coconut"
+
+
+-- BUT REMEMBER IF THE FIRST CLAUSE IS A MATCH 
+-- SQL NEVER SEARCH FOR THE SECOND ONE 
+-- THAT MEANS IF THE "banana" IS FOUND THE DATABASE WILL 
+-- NOT TRY TO FIND THE "coconut"
+
