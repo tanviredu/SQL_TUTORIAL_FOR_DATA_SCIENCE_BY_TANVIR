@@ -58,7 +58,19 @@ WHERE (supplier_id=9 OR supplier_id=11) AND price >=100;
 
 
 
+-- REMEMER what you get from the OR also can be done with IN but the IN has some additional advantage
+
+
 
 -- NOT OPERATOR
 
--- thiis is actually used for excludin the data from a certail query;
+
+
+-- thiis is actually used for excludin the data from a certain query;
+-- this is actually used when you want everything except some ammount of data
+--example 
+
+SELECT * FROM employees
+WHERE NOT city='chittagong'
+AND NOT city='Barishal'
+
