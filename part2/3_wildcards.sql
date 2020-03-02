@@ -28,5 +28,14 @@
 -- it will return everything have the gmail.com
 
 
+-- you can use the underscore for as a wild cards
 
+-- example 
+
+SELECT price FROM shop
+WHERE name LIKE '_pizza'
+
+-- this wil also return the pizza like wild caed option
+
+-- but remember it wont work in the sqlite3 database
 
