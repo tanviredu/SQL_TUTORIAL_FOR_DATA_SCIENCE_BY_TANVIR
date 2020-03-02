@@ -27,3 +27,8 @@ ORDER BY charistics
 
 -- it will sort the column based on the second and the third column
 
+
+-- you can sort the column using the ascendig and desceding order
+
+-- ADD ASC for the asceding order
+-- ADD DESC for the desceding order 
