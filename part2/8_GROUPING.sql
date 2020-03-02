@@ -24,3 +24,9 @@ SELECT area
 	,COUNT(customerID) as total_customers
 FROM customers
 GROUP BY area;
+
+
+
+-- remember you can group by multiple column
+
+-- if you have null value in the column that is group by then the null will beanother value for group by
